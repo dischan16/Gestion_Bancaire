@@ -122,6 +122,8 @@ public class Affichage {
     this.table.setModel(new DefaultTableModel(
           new Object[0][], 
           
+          
+          
           (Object[])new String[] { 
             "NoCompte", "Id", "Nom", "Prenom", "D.O.B", "Adresse", "Sexe", "Type de Compte", "Solde", "ID 2 (C.joint)", 
             "Taux(C.epargne)" }));
